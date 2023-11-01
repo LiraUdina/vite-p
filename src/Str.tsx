@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
 const Str = () => {
     return (
-        <nav>
+        <nav className="my-link">
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
-        <Link to="/More">More</Link>
-      </nav>
+        </nav>
     )
 }
 

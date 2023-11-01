@@ -1,9 +1,8 @@
 const Home = () => {
     return (
         <div>
-            <h1> Hi </h1>
+            <h1> Сайт котиков </h1>
         </div>
     )
 }
-
 export {Home}
