@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'
 import { About } from './papka/About';
 import { Home } from './papka/Home';
 import { Str} from './Str';
@@ -10,11 +10,11 @@ function App() {
     <Str/>
 
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/About" element={<About/>} />
-        <Route path='*' element={<Str/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/About" element={<About/>}></Route>
       </Routes>
-    </>
+      
+     </>
   );
 }
 

@@ -8,10 +8,3 @@ h1 {
   line-height: 0.3;
   color: #646cff;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-}
