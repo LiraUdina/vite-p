@@ -11,3 +11,8 @@
   align-items: center;
 }
 
+.cat {
+  width: 800px;
+  margin: auto;
+  color: blue;
+}
